@@ -1,7 +1,7 @@
 # Predicting US Visa availability
 
 ## Background
-* The solution is based on the F1 Visa slot availability dataset provided by Checkvisaslots. 
+* The solution is based on the F1 Visa slot availability dataset provided by <a href="https://checkvisaslots.com/reports/us-visa-slots-data.html">Checkvisaslots</a>. 
 * Checkvisaslots is a Chrome extension that aspiring students use to check for visa slots availability without having to log into the visa portal. This is useful because users who exceed the daily login limit will be locked out for 72 hours. 
 * The tool shows visa slot availability based on whether other users found a slot or not while they logged in. This helps users avoid excessive login attempts which can lock them out.
 * When a user logs in, the extension collects data from the slot availability page such as consulates where the slots are available and dates when they are available.
