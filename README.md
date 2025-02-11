@@ -22,7 +22,7 @@
 * Improved accuracy from 77.75% to **84.43%** with the decision tree classifier while achieving a high ROC-AUC value of **0.90** indicating the model's effectiveness.
 
 ## Considerations
-* Testing only Logistic Regression and Decision Trees offers simplicity, interpretability, and computational efficiency. They provide strong baseline performance, help control overfitting, and are often sufficient for specific domains or regulated industries. In our case, performance is adequate, so more complex models may be unnecessary.
+* Testing only Logistic Regression and Decision Trees offers simplicity, interpretability, and computational efficiency. They provide strong baseline performance, help control overfitting, and are often sufficient for specific use cases. Given the performance achieved for predicting visa slots, complex models may be unnecessary.
 * While the model can be great at predicting slot availability for the month of May, June, July, and August due to the data available, it can be improved by collecting data throughout the year and adjusting the model based on the patterns observed.
 * A high ROC-AUC score indicates that the model is effective at distinguishing between positive and negative classes. However, caution should be exercised to avoid overfitting by monitoring performance on the test set using various metrics, such as accuracy, precision, recall, and F1-score. Additionally, ensuring the interpretability of results is crucial for understanding the model's decisions.
 
